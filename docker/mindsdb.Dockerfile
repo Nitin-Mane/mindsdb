@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.12.0a5-slim
 
 
 RUN apt update && apt-get upgrade -y && apt install -y build-essential
